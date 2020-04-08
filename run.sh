@@ -4,8 +4,8 @@ rm -rf frameworks/base
 rm -rf packages/apps/Settings
 repo sync --force-sync --no-tags --no-clone-bundle
 cd vendor/aosip
-git fetch https://github.com/PixelExperience/vendor_aosp.git
-git cherry-pick 2428a260dd754c7ec22c031ab2b5c5067bbee721
+git fetch https://github.com/ALKALiKong233/platform_vendor_aosip.git
+git cherry-pick 1dc6f4d4c811624a0c01aed2150e1d57ecd42744
 cd ~/derp
 cd frameworks/base
 git fetch https://github.com/PixelExperience/frameworks_base.git
