@@ -1,7 +1,4 @@
 cd ~/derp
-rm -rf vendor/aosip
-rm -rf frameworks/base
-rm -rf packages/apps/Settings
 repo sync --force-sync --no-tags --no-clone-bundle -j8
 cd vendor/aosip
 git fetch https://github.com/amanrajOO7/platform_vendor_aosip
