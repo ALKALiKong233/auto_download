@@ -2,7 +2,7 @@ cd ~/derp
 repo sync --force-sync --no-tags --no-clone-bundle -j8
 cd vendor/aosip
 git fetch https://github.com/amanrajOO7/platform_vendor_aosip
-git cherry-pick 7fd2b51a4d881dbced5e9ab90b6a65841926dd9a
+git cherry-pick 302f358d4b873812bfde463e8cb924b77b354a1c
 cd ~/derp
 cd frameworks/base
 git fetch https://github.com/amanrajOO7/platform_frameworks_base
